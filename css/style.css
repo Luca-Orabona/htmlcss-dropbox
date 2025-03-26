@@ -53,8 +53,16 @@ p {
     margin-top: 25px;
 }
 
-.mb-45 {
-    margin-bottom: 45px;
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
 }
 
 
@@ -68,13 +76,17 @@ p {
 .btn {
     display: inline-block;
     padding: 8px 12px;
+}
+
+.bg-blu {
     background-color: #0061FE;
     color: white;
 }
 
 .border-gray {
-    border: 1px solid gray;
+     border: 1px solid rgb(207, 199, 199);
 }
+
 
 /* HEADER */
 .nav-header {
@@ -104,6 +116,7 @@ p {
 }
 
 .btn:hover {
+    color: white;
     background-color: #0253d5;
 }
 
@@ -118,6 +131,7 @@ p {
     max-height: 580px;
     background-color: #B4D0E6;
     padding-top: 40px;
+    margin-bottom: 150px;
 }
 
 .title-hero-section {
@@ -136,20 +150,11 @@ p {
 }
 
 .icon-arrow i {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /* SECTION TOP */
-.section-top {
-    margin-top: 100px;
-}
 
-.title-section-top {
-    height: 40px;
-
-    /* debug */
-    border: 1px dashed black;
-}
 /* CARDS */
 .cards-piani {
     flex-wrap: wrap;
@@ -169,17 +174,15 @@ p {
 
 /* HEADER CARD */
 .header-card {
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(207, 199, 199);
 }
 
-.card-team {
-     /* debug */
-     min-height: 150px;
-     border: 1px dashed black;
-     background-color: antiquewhite;
+.header-card > span{
+    font-size: 0.9rem;
+  
 }
 
 
@@ -204,20 +207,81 @@ p {
     margin: 45px 0;
 }
 
-.indication-plan li {
+.main-card li {
     margin-bottom: 20px;
+}
+
+.main-card span {
+    margin-left: 7px;
+}
+
+.main-card a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.border {
+    border: 1px solid gray;
+    width: 30%;
+    margin: 30px 0;
+}
+
+.list-punti-salienti-piano i {
+    color: #328acd;
+}
+
+/* CARD TEAM */
+.card-team {
+    margin-bottom: 150px;
+    
+}
+
+/* HEADER CARD TEAM */
+.header-card-team {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid rgb(207, 199, 199);
+}
+
+
+/* MAIN CARD TEAM */
+.main-card-team {
+    padding: 0 25px;
+    padding-top: 30px;
+}
+
+.main-card-team h4 {
+    margin-bottom: 15px;
+}
+
+.font-bolt {
+    font-weight: bold;
+}
+
+.txt-right {
+    text-align: right;
 }
 
 /* SECTION MIDDLE 1 */
 .section-middle-1 {
-    margin-top: 50px;
-    flex-direction: row-reverse;
+    margin-bottom: 100px;
+    gap: var(--space-gap-large);
+}
+
+.col-w65 {
+    width: 65%;
+}
+
+.col-w35 {
+    width: 35%;
 }
 
 
 /* SECTION MIDDLE 2 */
 .section-middle-2 {
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 .section-middle-2 h4 {
@@ -232,10 +296,6 @@ p {
 
 
 /* SECTION BOTTOM */ 
-.section-bottom {
-    margin-top: 50px;
-}
-
 .section-bottom a {
     color: blue;
     text-decoration: underline;
