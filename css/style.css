@@ -12,7 +12,7 @@ img {
 
 /* UTILY */
 .container-hero {
-    width: 60%;
+    width: 80%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -36,8 +36,8 @@ img {
 
 /* HEADER */
 .header {
-    
-    
+
+
     /* debug */
     border: 1px dashed black;
 }
@@ -98,19 +98,20 @@ img {
 
 /* TITLE SECTION TOP */
 .section-top {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .title-section-top {
     height: 40px;
-    
+
     /* debug */
     border: 1px dashed black;
 }
 
 .cards-piani {
     flex-wrap: wrap;
-    gap: 20px;   
+    gap: 20px;
+    margin-bottom: 25px;
 }
 
 .col {
@@ -122,6 +123,40 @@ img {
      background-color: antiquewhite;
 }
 
+.card-team {
+     /* debug */
+     min-height: 150px;
+     border: 1px dashed black;
+     background-color: antiquewhite;
+}
+
+
+/* SECTION MIDDLE 1 */
+.section-middle-1 {
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+
+/* SECTION MIDDLE 2 */
+.section-middle-2 {
+    margin-top: 50px;
+
+}
+
+.cards-operations {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+/* SECTION BOTTOM */ 
+    .section-bottom {
+        margin-top: 50px;
+    /* debug */
+    min-height: 150px;
+    border: 1px dashed black;
+    background-color: antiquewhite;
+}
 
 
 
