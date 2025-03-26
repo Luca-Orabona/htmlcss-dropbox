@@ -53,8 +53,8 @@ p {
     margin-top: 25px;
 }
 
-.mb-70 {
-    margin-bottom: 70px;
+.mb-85 {
+    margin-bottom: 85px;
 }
 
 .mb-20 {
@@ -63,6 +63,10 @@ p {
 
 .pt-30 {
     padding-top: 30px;
+}
+
+.mr-20 {
+    margin-right: 20px;
 }
 
 
@@ -78,6 +82,12 @@ p {
     padding: 8px 12px;
 }
 
+.btn-w100 {
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+}
+
 .bg-blu {
     background-color: #0061FE;
     color: white;
@@ -85,6 +95,10 @@ p {
 
 .border-gray {
      border: 1px solid rgb(207, 199, 199);
+}
+
+.color-gray {
+    color: gray;
 }
 
 
@@ -128,14 +142,14 @@ p {
 }
 /* HERO SECTION */
 .hero-section {
-    max-height: 580px;
+    max-height: 555px;
     background-color: #B4D0E6;
     padding-top: 40px;
     margin-bottom: 150px;
 }
 
 .title-hero-section {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
     min-height: 100px;
     margin-bottom: 30px;
@@ -154,6 +168,9 @@ p {
 }
 
 /* SECTION TOP */
+.billing > * {
+    vertical-align: middle;
+}
 
 /* CARDS */
 .cards-piani {
@@ -198,13 +215,17 @@ p {
 }
 
 .price {
-    display: inline-block;
     margin-bottom: 20px;
+    font-weight: bold;
 
 }
 
 .indication-plan {
     margin: 45px 0;
+}
+
+.punti-salienti-piano h3 {
+    font-size: 0.8rem;
 }
 
 .main-card li {
@@ -213,6 +234,7 @@ p {
 
 .main-card span {
     margin-left: 7px;
+    font-size: 0.8rem;
 }
 
 .main-card a {
