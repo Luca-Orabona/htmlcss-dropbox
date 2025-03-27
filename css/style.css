@@ -57,8 +57,8 @@ p {
     margin-bottom: 85px;
 }
 
-.mb-20 {
-    margin-bottom: 20px;
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 .pt-30 {
@@ -182,10 +182,6 @@ p {
 
 .col {
     width: calc((100% - var(--space-gap-large) * 2) / 3);
-    
-
-     /* debug */
-     min-height: 450px;
 }
 
 
@@ -211,6 +207,7 @@ p {
 }
 
 .main-card h3 {
+    font-size: 1.3rem;
     margin-bottom: 20px;
 }
 
@@ -220,7 +217,7 @@ p {
 
 }
 
-.indication-plan {
+.information-plan {
     margin: 45px 0;
 }
 
@@ -229,6 +226,7 @@ p {
 }
 
 .main-card li {
+    display: flex;
     margin-bottom: 20px;
 }
 
@@ -245,7 +243,7 @@ p {
 .border {
     border: 1px solid gray;
     width: 30%;
-    margin: 30px 0;
+    margin: 45px 0;
 }
 
 .list-punti-salienti-piano i {
