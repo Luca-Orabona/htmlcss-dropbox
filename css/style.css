@@ -19,7 +19,7 @@ img {
 
 /* UTILY */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container-small {
@@ -65,6 +65,10 @@ p {
     padding-top: 30px;
 }
 
+.py-60 {
+    padding: 60px 0px;
+}
+
 .mr-20 {
     margin-right: 20px;
 }
@@ -82,6 +86,13 @@ p {
     padding: 8px 12px;
 }
 
+
+.btn:hover, .btn-w100:hover {
+    color: white;
+    background-color: #0253d5;
+    cursor: pointer;
+}
+
 .btn-w100 {
     width: 100%;
     padding: 8px 0;
@@ -91,6 +102,10 @@ p {
 .bg-blu {
     background-color: #0061FE;
     color: white;
+}
+
+.border-black {
+    border: 1px solid black;
 }
 
 .border-gray {
@@ -110,8 +125,11 @@ p {
     align-items: center;
 }
 
-.col-40 {
-    width: 40%; 
+.nav-header li:hover {
+   height: 80px;
+   display: flex;
+   align-items: center;
+   border-bottom: 2px solid black;
 }
 
 .list-nav-info-dropbox {
@@ -129,10 +147,6 @@ p {
     cursor: pointer;
 }
 
-.btn:hover {
-    color: white;
-    background-color: #0253d5;
-}
 
 
 /* MAIN */
@@ -145,7 +159,6 @@ p {
     max-height: 555px;
     background-color: #B4D0E6;
     padding-top: 40px;
-    margin-bottom: 150px;
 }
 
 .title-hero-section {
@@ -168,6 +181,11 @@ p {
 }
 
 /* SECTION TOP */
+.section-top {
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
 .billing > * {
     vertical-align: middle;
 }
@@ -251,10 +269,6 @@ p {
 }
 
 /* CARD TEAM */
-.card-team {
-    margin-bottom: 150px;
-    
-}
 
 /* HEADER CARD TEAM */
 .header-card-team {
@@ -285,8 +299,12 @@ p {
 
 /* SECTION MIDDLE 1 */
 .section-middle-1 {
-    margin-bottom: 100px;
-    gap: var(--space-gap-large);
+    gap: 35px;
+}
+
+.section-middle-1 h2 {
+    font-size: 1.3rem;
+    margin-bottom: 18px;
 }
 
 .col-w65 {
@@ -299,11 +317,6 @@ p {
 
 
 /* SECTION MIDDLE 2 */
-.section-middle-2 {
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
-
 .section-middle-2 h4 {
     margin-bottom: 20px;
     line-height: 1.4;
@@ -316,6 +329,10 @@ p {
 
 
 /* SECTION BOTTOM */ 
+.section-bottom {
+    padding-bottom: 130px;
+}
+
 .section-bottom a {
     color: blue;
     text-decoration: underline;
@@ -324,7 +341,6 @@ p {
 
 /* FOOTER */
 .footer {
-    margin-top: 150px;
     background-color: black;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -354,10 +370,12 @@ p {
 }
 
 /* FOOTER BOTTOM */
+.divisor {
+    margin: 80px 0 40px;
+    width: 12%;
+}
 .footer-bottom {
     color: gray;
-    margin-top: 50px;
-
 }
 
 .language {
