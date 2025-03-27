@@ -117,6 +117,45 @@ p {
 }
 
 
+/* BACKGROUND */
+.bg-designit {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.bg-asu {
+    background-color: #61082B;
+}
+
+.bg-florida {
+    background-color: #0093CE;
+}
+
+.bg-topps {
+    background-color: #FF1C1C;
+}
+
+.bg-world {
+    background-color: #D5001F;
+}
+
+.bg-heart {
+    background-color: #B4D0E7;
+}
+
+.bg-lonely {
+    background-color: #0D2481;
+}
+
+.bg-clear {
+    background-color: #FFD830;
+}
+
+.bg-lightgray {
+    background-color: #F5F5F5;
+}
+
+
 /* HEADER */
 .nav-header {
     height: 80px;
@@ -213,7 +252,7 @@ p {
 
 .header-card > span{
     font-size: 0.9rem;
-  
+
 }
 
 
@@ -328,7 +367,7 @@ p {
 }
 
 
-/* SECTION BOTTOM */ 
+/* SECTION BOTTOM */
 .section-bottom {
     padding-bottom: 130px;
 }
@@ -336,6 +375,38 @@ p {
 .section-bottom a {
     color: blue;
     text-decoration: underline;
+}
+
+
+/* SECTION SPONSOR */
+.sponsor {
+    min-height: 350px;
+}
+
+.sponsor img {
+    height: 30px;
+    width: 120px;
+}
+
+.col-35 {
+    width: 35%;
+    flex-shrink: 0;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 
@@ -356,8 +427,8 @@ p {
     margin-bottom: 30px;
 }
 
-.footer-top li {  
-    color: gray;  
+.footer-top li {
+    color: gray;
     margin-bottom: 15px;
 }
 
