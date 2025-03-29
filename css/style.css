@@ -73,6 +73,14 @@ p {
     margin-right: 20px;
 }
 
+.p-35 {
+    padding: 35px;
+}
+
+.font-size-0_8 {
+    font-size: 0.8rem;
+}
+
 
 
 /* COMMON */
@@ -94,6 +102,7 @@ p {
 }
 
 .btn-w100 {
+    display: inline-block;
     width: 100%;
     padding: 8px 0;
     text-align: center;
@@ -164,12 +173,16 @@ p {
     align-items: center;
 }
 
-.nav-header li:hover {
+.nav-header li:hover:not(.button, .logo) {
    height: 80px;
-   display: flex;
-   align-items: center;
+   line-height: 80px;
+   /* display: flex;
+   align-items: center; */
    border-bottom: 2px solid black;
 }
+
+
+
 
 .list-nav-info-dropbox {
     align-items: center;
@@ -297,7 +310,7 @@ p {
     text-decoration: underline;
 }
 
-.border {
+.main-card .divisor {
     border: 1px solid gray;
     width: 30%;
     margin: 45px 0;
@@ -378,36 +391,111 @@ p {
 }
 
 
-/* SECTION SPONSOR */
-.sponsor {
-    min-height: 350px;
-}
-
-.sponsor img {
-    height: 30px;
-    width: 120px;
-}
-
+/* SECTION PARTNERS */
 .col-35 {
     width: 35%;
-    flex-shrink: 0;
+    aspect-ratio: 1;
+}
+
+.col-35  img {
+    width: 60%;
 }
 
 .col-30 {
     width: 30%;
+    aspect-ratio: 1;
+    overflow: auto;
+    
 }
+
+
+.partners .divisor {
+    margin: 30px 0;
+    width: 20%;
+    border: 1px solid rgb(197, 194, 194);
+}
+
+.col-30 img {
+    width: 60%;
+}
+
 
 .square {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
+    aspect-ratio: 1;
 }
 
 .wrap {
     flex-wrap: wrap;
 }
+
+
+
+/* SECTION BUSINESS AZIENDA */
+.business-azienda {
+    padding: 90px 0;
+    background-color: #B4D0E7;
+
+}
+
+.business-azienda .col-large h2{
+    margin-bottom: 0;
+    color: rgba(80, 2, 2, 0.971);
+}
+
+
+/* QUESTIONS */
+.questions {
+    padding-top: 140px;
+    padding-bottom: 85px;
+
+}
+
+.questions h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+
+}
+
+.list-questions li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 30px 0;
+    border-bottom: 1px solid gray;
+
+}
+
+.list-questions li i {
+    padding-right: 30px;
+}
+
+.back {
+    display: none;
+}
+
+.list-questions li:hover {
+    flex-wrap: wrap;
+}
+
+.list-questions li:hover .back {
+    display: inline-block;
+}
+
+.list-questions li:hover .front {
+    display: none;
+}
+
+.list-questions li:hover .pback {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
 
 
 /* FOOTER */
@@ -441,7 +529,7 @@ p {
 }
 
 /* FOOTER BOTTOM */
-.divisor {
+.footer .divisor {
     margin: 80px 0 40px;
     width: 12%;
 }
